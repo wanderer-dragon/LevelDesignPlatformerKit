@@ -25,6 +25,7 @@ shape = SubResource("BoxShape3D_a52qj")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." index="3"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0751945, 0)
+collision_mask = 5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
 shape = SubResource("BoxShape3D_0fkk3")

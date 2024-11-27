@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdy8hj2i32vhb"]
+
+[ext_resource type="PackedScene" uid="uid://dhl7cyb0eqgnn" path="res://models/prototyping/models/shape-hexagon.glb" id="1_4xqur"]
+
+[node name="shape-hexagon2" instance=ExtResource("1_4xqur")]
+transform = Transform3D(10, 0, 0, 0, 1, 0, 0, 0, 10, 0, 0, 0)
