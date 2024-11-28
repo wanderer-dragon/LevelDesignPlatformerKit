@@ -169,7 +169,7 @@ transform = Transform3D(0.994522, 0, -0.104528, 0, 1, 0, 0.104528, 0, 0.994522, 
 transform = Transform3D(0.939693, 0, 0.34202, 0, 1, 0, -0.34202, 0, 0.939693, -11.7527, 1.8303, -2.30579)
 
 [node name="platform-falling4" parent="World" instance=ExtResource("9_2fnpo")]
-transform = Transform3D(0.932941, 0, -0.360029, 0, 1, 0, 0.360029, 0, 0.932941, -9.89568, 0.53538, 0.937623)
+transform = Transform3D(0.932941, 0, -0.547244, 0, 1, 0, 0.360029, 0, 1.41807, -9.89568, 0.53538, 0.937623)
 
 [node name="platform-grass-large-round" parent="World" instance=ExtResource("8_4oh1e")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 1, -2)

@@ -110,6 +110,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
 shape = SubResource("BoxShape3D_t551e")
 
 [node name="platform-falling2#StaticBody3D" type="StaticBody3D" parent="." index="1"]
+collision_mask = 5
 
 [node name="platform-falling_collisionShape3D" type="CollisionShape3D" parent="platform-falling2#StaticBody3D" index="0"]
 unique_name_in_owner = true
