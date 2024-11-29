@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_ca3ba"]
 [ext_resource type="Script" path="res://scripts/view.gd" id="3_4gin6"]
 [ext_resource type="PackedScene" uid="uid://dhxok27jxvik8" path="res://objects/flag.tscn" id="7_67qy4"]
-[ext_resource type="PackedScene" uid="uid://bkeg1ccif4u6v" path="res://objects/platform_falling_collide.tscn" id="10_y1l1s"]
+[ext_resource type="PackedScene" uid="uid://bkeg1ccif4u6v" path="res://objects/MyAdditions/platform_falling_collide.tscn" id="10_y1l1s"]
 [ext_resource type="PackedScene" uid="uid://blqf5cwsk25xj" path="res://models/core_models/grass.glb" id="11_v1byr"]
 [ext_resource type="PackedScene" uid="uid://g73m8k0j7lyo" path="res://objects/button.tscn" id="12_e4ttk"]
 [ext_resource type="PackedScene" uid="uid://dkw27llxh1d4w" path="res://models/core_models/grass-small.glb" id="12_t38mt"]
