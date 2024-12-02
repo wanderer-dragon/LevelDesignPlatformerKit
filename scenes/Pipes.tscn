@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=3 uid="uid://bovq7r4v8foml"]
+[gd_scene load_steps=36 format=3 uid="uid://bovq7r4v8foml"]
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_bw55i"]
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_4c0l3"]
@@ -35,8 +35,6 @@
 auto_exposure_scale = 0.75
 dof_blur_far_distance = 0.01
 
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_abvol"]
-
 [sub_resource type="Curve3D" id="Curve3D_fpjyx"]
 _data = {
 "points": PackedVector3Array(0, 0, 0, 0, 0, 0, 23.7896, 27.3668, -22.8928, 0, 0, 0, 0, 0, 0, 21.2925, 27.3668, -22.8928),
@@ -62,7 +60,7 @@ font_size = 42
 shadow_color = Color(0, 0, 0, 0.376471)
 shadow_offset = Vector2(2, 2)
 
-[node name="Main" type="Node3D"]
+[node name="Main2" type="Node3D"]
 
 [node name="Environment" type="WorldEnvironment" parent="."]
 unique_name_in_owner = true
@@ -186,12 +184,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.3066, 16.2905, -7.56205)
 
 [node name="coin3" parent="World/ground" instance=ExtResource("20_usjbu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.4968, 17.4168, -6.23017)
-
-[node name="RigidBody3D2" type="RigidBody3D" parent="World"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36434, 1, 1)
-mass = 0.002
-physics_material_override = SubResource("PhysicsMaterial_abvol")
-gravity_scale = 0.935
 
 [node name="Pipes" type="Node" parent="World"]
 
@@ -318,6 +310,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.2925, 27.3668, -22.8928)
 curve = SubResource("Curve3D_fpjyx")
 object_to_move = NodePath("../platform-moving")
 ping_pong = true
+
+[node name="platform-grass-large-round" parent="World" instance=ExtResource("19_nawlf")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 26.5363, 20.8891, -31.6941)
 
 [node name="HUD" type="CanvasLayer" parent="." groups=["HUD"]]
 process_mode = 3

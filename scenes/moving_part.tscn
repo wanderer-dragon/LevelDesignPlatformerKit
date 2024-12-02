@@ -42,7 +42,7 @@ _data = {
 }
 point_count = 2
 
-[node name="Main" type="Node3D"]
+[node name="Main2" type="Node3D"]
 
 [node name="World" type="Node3D" parent="."]
 
@@ -145,9 +145,8 @@ transform = Transform3D(-0.422618, -2.98023e-08, -0.906308, -0.694272, 0.642788,
 transform = Transform3D(-0.422618, -2.98023e-08, -0.906308, -0.694272, 0.642788, 0.323744, 0.582564, 0.766044, -0.271654, 38.9949, -2.76249, -14.8682)
 target = NodePath("../door")
 
-[node name="button_final" parent="World/a whole part" node_paths=PackedStringArray("target") instance=ExtResource("15_gtueb")]
+[node name="button_final" parent="World/a whole part" instance=ExtResource("15_gtueb")]
 transform = Transform3D(-0.422618, -2.98023e-08, -0.906308, -0.694272, 0.642788, 0.323744, 0.582564, 0.766044, -0.271654, 28.7605, -0.102784, -20.1476)
-target = NodePath("")
 
 [node name="block-grass-large-slope-steep-narrow2" parent="World/a whole part" instance=ExtResource("16_5famt")]
 transform = Transform3D(-1.26785, -1.19209e-07, -2.71892, -2.08282, 2.57115, 0.971232, 1.74769, 3.06418, -0.814961, 24.9079, -8.70206, -16.9814)
