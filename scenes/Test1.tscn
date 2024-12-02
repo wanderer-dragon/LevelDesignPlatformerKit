@@ -602,7 +602,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.311039, 0.0675792, -2.20399
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.03418, -0.884645, -2.44193)
 
 [node name="platform-overhang2" parent="World" instance=ExtResource("99_8fqc2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.42038, -0.884646, -0.406944)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.57962, -0.884646, -0.406944)
 
 [node name="platform-ramp2" parent="World" instance=ExtResource("100_s3y7g")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.11761, -6.66538, 5.88589)
