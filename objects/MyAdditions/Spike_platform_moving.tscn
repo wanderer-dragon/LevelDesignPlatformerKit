@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://hqu6f5w3cjf4"]
+
+[ext_resource type="PackedScene" uid="uid://bpharv43ulngb" path="res://objects/platform_moving.tscn" id="1_hmar0"]
+[ext_resource type="PackedScene" uid="uid://dpo3dr26b06w3" path="res://objects/spike_block_wide.tscn" id="2_7eajd"]
+[ext_resource type="PackedScene" uid="uid://bunxb353h3lje" path="res://objects/damage_dealer_area_3d.tscn" id="3_s65r4"]
+
+[node name="platform-moving" instance=ExtResource("1_hmar0")]
+
+[node name="spike-block-wide" parent="." index="2" instance=ExtResource("2_7eajd")]
+transform = Transform3D(-2.18557e-08, -0.5, 0, 0.5, -2.18557e-08, 0, 0, 0, 0.5, -0.379633, -0.463904, 0)
+
+[node name="DamageDealerArea3D2" parent="spike-block-wide" index="3" instance=ExtResource("3_s65r4")]
+
+[node name="spike-block-wide2" parent="." index="3" instance=ExtResource("2_7eajd")]
+transform = Transform3D(-2.18557e-08, -0.5, 0, 0.5, -2.18557e-08, 0, 0, 0, 0.5, 0.909743, -0.463904, 0)
+
+[node name="DamageDealerArea3D2" parent="spike-block-wide2" index="3" instance=ExtResource("3_s65r4")]
