@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxcn0g7w1v0gy"]
+
+[ext_resource type="PackedScene" uid="uid://b7yv016l57x1q" path="res://models/props/mushrooms.glb" id="1_ru25c"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_gcb6y"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tps17"]
+albedo_texture = ExtResource("2_gcb6y")
+emission_enabled = true
+emission = Color(0.682353, 0.443137, 0, 1)
+ao_enabled = true
+
+[node name="mushrooms_light" instance=ExtResource("1_ru25c")]
+
+[node name="mushrooms" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tps17")
