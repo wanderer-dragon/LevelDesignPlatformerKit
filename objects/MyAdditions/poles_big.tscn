@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://diomcbf5jswx0"]
+
+[ext_resource type="PackedScene" uid="uid://bw7nsi1v8g30s" path="res://models/props/poles.glb" id="1_an312"]
+
+[node name="poles2" instance=ExtResource("1_an312")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
