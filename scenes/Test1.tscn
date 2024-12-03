@@ -285,7 +285,7 @@ environment = ExtResource("1_d0xow")
 camera_attributes = SubResource("CameraAttributesPractical_u8ojw")
 
 [node name="Player" parent="." node_paths=PackedStringArray("view") instance=ExtResource("2_ca3ba")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -1.67656)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 4.87349)
 view = NodePath("../View")
 
 [node name="View" type="Node3D" parent="." node_paths=PackedStringArray("target") groups=["View"]]
@@ -1053,6 +1053,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.18963, -0.884645, 0.331508)
 
 [node name="shape-hexagon3" parent="World" instance=ExtResource("197_gqfhq")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.75743, -6.66538, 2.63161)
+
+[node name="wall-diagonal-low3" parent="World" instance=ExtResource("225_1q25p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.24108, -6.66538, 11.6514)
+
+[node name="wall-low3" parent="World" instance=ExtResource("233_1d8y5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.64777, -6.66538, 12.1181)
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.422618, -0.694272, 0.582563, 0, 0.642788, 0.766044, -0.906308, 0.323744, -0.271654, 0, 0, 0)

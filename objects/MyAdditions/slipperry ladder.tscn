@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://dadvnb1arpbej"]
+
+[ext_resource type="PackedScene" uid="uid://ct0udc8bxegxv" path="res://objects/MyAdditions/ladder_long_2_collision.tscn" id="1_8kbgp"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_5xay2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8wcfv"]
+albedo_texture = ExtResource("2_5xay2")
+roughness = 0.15
+
+[node name="ladder-long2" instance=ExtResource("1_8kbgp")]
+
+[node name="ladder-long" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_8wcfv")

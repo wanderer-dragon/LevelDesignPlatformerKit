@@ -503,7 +503,7 @@ transform = Transform3D(-0.422618, -2.98023e-08, -0.906308, -0.694272, 0.642788,
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.7576, -16.5919, -13.9178)
 
 [node name="moving_object_path" parent="World/World_MOVING/a whole part/movings_group1" node_paths=PackedStringArray("object_to_move") instance=ExtResource("6_bxedt")]
-transform = Transform3D(1, 4.44103e-16, 5.25802e-13, -8.88084e-16, 1, -5.25802e-13, 5.25802e-13, 0, 1, -62.924, -30.6927, 25.4446)
+transform = Transform3D(1, 4.44103e-16, 5.68434e-13, -8.88073e-16, 1, -5.68434e-13, 5.68434e-13, 0, 1, -62.924, -30.6927, 25.4446)
 curve = SubResource("Curve3D_sna40")
 object_to_move = NodePath("../platform-moving")
 
@@ -514,7 +514,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.607, -16.5919, -33.17)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.0439, -16.5919, -39.0148)
 
 [node name="moving_object_path3" parent="World/World_MOVING/a whole part/movings_group1" node_paths=PackedStringArray("object_to_move") instance=ExtResource("6_bxedt")]
-transform = Transform3D(1, 4.44103e-16, 2.2581e-11, -8.8414e-16, 1, -2.2581e-11, 2.2581e-11, 0, 1, -62.924, -30.6927, 25.4446)
+transform = Transform3D(1, 4.44103e-16, 2.26237e-11, -8.8413e-16, 1, -2.26237e-11, 2.26237e-11, 0, 1, -62.924, -30.6927, 25.4446)
 curve = SubResource("Curve3D_bn801")
 object_to_move = NodePath("../platform-moving7")
 ping_pong = true
