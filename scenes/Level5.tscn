@@ -1270,6 +1270,12 @@ transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 57.0221, 21.8349, -82.0064
 [node name="block-snow-edge2_collision6" parent="snow wall part" instance=ExtResource("42_e0q18")]
 transform = Transform3D(0.163425, 0, 0.115292, 0, 0.2, 0, -0.115292, 0, 0.163425, -0.734141, -0.0875504, -0.163297)
 
+[node name="block-snow-edge2_collision7" parent="snow wall part" instance=ExtResource("42_e0q18")]
+transform = Transform3D(0.140949, 0, -0.141892, 0, 0.2, 0, 0.141892, 0, 0.140949, -0.212434, -0.0854984, 0.584044)
+
+[node name="block-snow-edge2_collision8" parent="snow wall part" instance=ExtResource("42_e0q18")]
+transform = Transform3D(0.140949, 0, -0.141892, 0, 0.2, 0, 0.141892, 0, 0.140949, -0.319038, 0.0104126, 0.571574)
+
 [node name="block-snow-edge2_collision4" parent="snow wall part" instance=ExtResource("42_e0q18")]
 transform = Transform3D(0.4, 6.99382e-08, -6.99382e-08, -6.99382e-08, 0.4, 6.99382e-08, 6.99382e-08, -6.99382e-08, 0.4, 0, 0.0774093, -0.678213)
 
