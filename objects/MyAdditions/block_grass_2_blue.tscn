@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://d3d68x07uvuwf"]
+
+[ext_resource type="PackedScene" uid="uid://ddmbqtxinlr0l" path="res://objects/MyAdditions/block_grass_2_collision.tscn" id="1_8imi3"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_8l335"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pscy5"]
+albedo_texture = ExtResource("2_8l335")
+uv1_offset = Vector3(12.125, 0.02, 0)
+
+[node name="block-grass2_blue" instance=ExtResource("1_8imi3")]
+
+[node name="block-grass" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_pscy5")

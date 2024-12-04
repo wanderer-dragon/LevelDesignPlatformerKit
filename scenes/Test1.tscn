@@ -1,4 +1,4 @@
-[gd_scene load_steps=259 format=3 uid="uid://ewcahohh0nkv"]
+[gd_scene load_steps=267 format=3 uid="uid://ewcahohh0nkv"]
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_d0xow"]
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_ca3ba"]
@@ -254,6 +254,14 @@
 [ext_resource type="PackedScene" uid="uid://d16ldw73ada7w" path="res://models/prototyping/models/weapon-shield.glb" id="246_4q6at"]
 [ext_resource type="PackedScene" uid="uid://c48perftxj5a6" path="res://models/prototyping/models/weapon-sword.glb" id="247_5xvh0"]
 [ext_resource type="PackedScene" uid="uid://dclbr6h5m4kw8" path="res://models/prototyping/models/wheelchair.glb" id="248_n4fss"]
+[ext_resource type="PackedScene" uid="uid://u2e4a85jvko3" path="res://models/props/block-snow-corner-overhang-low.glb" id="249_4rs2c"]
+[ext_resource type="PackedScene" uid="uid://dci4ee0orjowo" path="res://models/props/block-snow-curve-low.glb" id="250_xuk04"]
+[ext_resource type="PackedScene" uid="uid://dnx87a4p8ivan" path="res://models/props/block-snow-curve-half.glb" id="251_8jat5"]
+[ext_resource type="PackedScene" uid="uid://tqm2ma1owf4f" path="res://models/props/block-snow-edge.glb" id="252_7giud"]
+[ext_resource type="PackedScene" uid="uid://cybome6gnkg87" path="res://models/props/block-snow-large-slope-narrow.glb" id="253_0ikwm"]
+[ext_resource type="PackedScene" uid="uid://1j2vehyatmn2" path="res://models/props/block-snow-large-slope-steep-narrow.glb" id="254_40iqa"]
+[ext_resource type="PackedScene" uid="uid://464njxe0ii0k" path="res://models/props/block-snow-large-tall.glb" id="255_54nvq"]
+[ext_resource type="PackedScene" uid="uid://ii47pc2fhvab" path="res://models/props/block-snow-overhang-low-long.glb" id="256_m4hi2"]
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_u8ojw"]
 auto_exposure_scale = 0.75
@@ -1059,6 +1067,33 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.24108, -6.66538, 11.6514)
 
 [node name="wall-low3" parent="World" instance=ExtResource("233_1d8y5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.64777, -6.66538, 12.1181)
+
+[node name="block-snow-corner-overhang-low2" parent="World" instance=ExtResource("249_4rs2c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, -2)
+
+[node name="block-snow-curve-low2" parent="World" instance=ExtResource("250_xuk04")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, -5)
+
+[node name="block-snow-curve-half2" parent="World" instance=ExtResource("251_8jat5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -4)
+
+[node name="block-snow-edge2" parent="World" instance=ExtResource("252_7giud")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, -1, 0)
+
+[node name="block-snow-large-slope-narrow2" parent="World" instance=ExtResource("253_0ikwm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -1, -2)
+
+[node name="block-snow-large-slope-steep-narrow2" parent="World" instance=ExtResource("254_40iqa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, -1, -1)
+
+[node name="block-snow-large-tall2" parent="World" instance=ExtResource("255_54nvq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.10424, -0.88464, -3.75805)
+
+[node name="block-snow-overhang-low-long2" parent="World" instance=ExtResource("256_m4hi2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.99179, -0.88464, -0.803489)
+
+[node name="arrow3" parent="World" instance=ExtResource("13_5anwa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.61407, 0.0675785, -4.22821)
 
 [node name="Sun" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.422618, -0.694272, 0.582563, 0, 0.642788, 0.766044, -0.906308, 0.323744, -0.271654, 0, 0, 0)
