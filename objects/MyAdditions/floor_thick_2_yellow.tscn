@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://m3p87yfcq5ai"]
+
+[ext_resource type="PackedScene" uid="uid://ddyao5skytgvu" path="res://models/prototyping/models/floor-thick.glb" id="1_ibopc"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_rse5b"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_d5vql"]
+albedo_texture = ExtResource("2_rse5b")
+uv1_offset = Vector3(-2.42, -0.225, 0)
+
+[node name="floor-thick2_yellow" instance=ExtResource("1_ibopc")]
+
+[node name="floor-thick" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_d5vql")

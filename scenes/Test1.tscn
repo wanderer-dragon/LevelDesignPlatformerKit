@@ -754,10 +754,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.4693, -6.66538, -0.389959)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.4917, -6.66538, 1.71489)
 
 [node name="floor-thick-corner-rounded2" parent="World" instance=ExtResource("147_ccy2r")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.3071, -6.66538, 0.0187373)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.34959, -6.66538, 0.0187373)
 
 [node name="floor-thick2" parent="World" instance=ExtResource("148_8wnqv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5036, -6.66538, 5.91758)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5036, -6.40791, 5.91758)
 
 [node name="hat-cap2" parent="World" instance=ExtResource("149_u37hv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.7853, -6.66538, 8.83857)
@@ -799,7 +799,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.9552, -6.66538, 5.84377)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.98165, -6.66538, 6.70758)
 
 [node name="indicator-square-a2" parent="World" instance=ExtResource("162_qaeb0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.5731, -6.66538, 12.1845)
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 17.5077, -6.19755, 5.90333)
 
 [node name="indicator-square-b2" parent="World" instance=ExtResource("163_3talh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.0729, -6.66538, 10.4447)
@@ -814,7 +814,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.7615, -6.66538, 8.81004)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55147, -6.66538, 0.346498)
 
 [node name="indicator-square-f2" parent="World" instance=ExtResource("167_veubn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.42714, -6.66538, -1.17067)
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 2.3847, -6.56759, -0.000487268)
 
 [node name="ladder-color2" parent="World" instance=ExtResource("168_yat2j")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.07909, -6.66538, 4.51349)

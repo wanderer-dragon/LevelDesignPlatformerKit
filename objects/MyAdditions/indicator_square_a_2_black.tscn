@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://cb1eirt52ivwd"]
+
+[ext_resource type="PackedScene" uid="uid://kpdhgqlguptc" path="res://models/prototyping/models/indicator-square-a.glb" id="1_skcht"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_6k63x"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hthl2"]
+albedo_texture = ExtResource("2_6k63x")
+uv1_offset = Vector3(0.39, 0, 0)
+
+[node name="indicator-square-a2_black" instance=ExtResource("1_skcht")]
+
+[node name="indicator-square-a" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_hthl2")
