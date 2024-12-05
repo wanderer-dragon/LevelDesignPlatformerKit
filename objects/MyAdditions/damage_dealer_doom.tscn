@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://x5cyb332hfur"]
+
+[ext_resource type="PackedScene" uid="uid://bunxb353h3lje" path="res://objects/damage_dealer_area_3d.tscn" id="1_k76fs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5aju1"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_fg8mj"]
+
+[node name="DamageDealer_Doom" instance=ExtResource("1_k76fs")]
+
+[node name="CollisionShape3D" parent="." index="0"]
+shape = SubResource("BoxShape3D_5aju1")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." index="1"]
+mesh = SubResource("BoxMesh_fg8mj")

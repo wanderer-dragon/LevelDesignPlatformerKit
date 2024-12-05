@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://be4x1uv4wi231"]
+
+[ext_resource type="PackedScene" uid="uid://uqr4hswv6d2g" path="res://objects/platform_grass_large_round.tscn" id="1_sg2j8"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_2qdkj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nwstu"]
+albedo_texture = ExtResource("2_2qdkj")
+uv1_offset = Vector3(1.17, 0, 0)
+
+[node name="doomland" instance=ExtResource("1_sg2j8")]
+
+[node name="platform-grass-large-round2#grass-small" parent="." index="0"]
+visible = false
+
+[node name="platform-grass-large-round2#grass" parent="." index="1"]
+visible = false
+
+[node name="platform-grass-large-round2#grass2" parent="." index="2"]
+visible = false
+
+[node name="platform-grass-large-round2" parent="." index="4"]
+surface_material_override/0 = SubResource("StandardMaterial3D_nwstu")
