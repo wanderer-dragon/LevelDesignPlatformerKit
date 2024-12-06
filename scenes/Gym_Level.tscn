@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://bs65o07otxbmm" path="res://objects/moving_object_path_3d.tscn" id="6_xm537"]
 [ext_resource type="PackedScene" uid="uid://dbr3dh46cbskt" path="res://objects/wall.tscn" id="7_r1quv"]
 [ext_resource type="PackedScene" uid="uid://bprrlrsrodjse" path="res://objects/saw.tscn" id="8_djf1h"]
-[ext_resource type="PackedScene" uid="uid://ytqajrdi7fqj" path="res://objects/trampoline.tscn" id="8_smhr8"]
+[ext_resource type="PackedScene" path="res://objects/trampoline.tscn" id="8_smhr8"]
 [ext_resource type="PackedScene" uid="uid://ugndbo13ctw6" path="res://models/prototyping/models/shape-hollow-cylinder-half-detailed.glb" id="10_f00qo"]
 [ext_resource type="PackedScene" uid="uid://g73m8k0j7lyo" path="res://objects/button.tscn" id="12_byg13"]
 [ext_resource type="PackedScene" uid="uid://bunxb353h3lje" path="res://objects/damage_dealer_area_3d.tscn" id="13_dmsjj"]

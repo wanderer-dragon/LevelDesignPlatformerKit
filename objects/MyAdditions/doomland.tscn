@@ -4,8 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_2qdkj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nwstu"]
+albedo_color = Color(0, 0.133333, 0.870588, 0.192157)
 albedo_texture = ExtResource("2_2qdkj")
-uv1_offset = Vector3(1.17, 0, 0)
+uv1_offset = Vector3(1.75, 0, 0)
 
 [node name="doomland" instance=ExtResource("1_sg2j8")]
 
