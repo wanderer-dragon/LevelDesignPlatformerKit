@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://be4x1uv4wi231"]
+[gd_scene load_steps=5 format=3 uid="uid://be4x1uv4wi231"]
 
 [ext_resource type="PackedScene" uid="uid://uqr4hswv6d2g" path="res://objects/platform_grass_large_round.tscn" id="1_sg2j8"]
 [ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_2qdkj"]
+[ext_resource type="PackedScene" uid="uid://x5cyb332hfur" path="res://objects/MyAdditions/damage_dealer_doom.tscn" id="3_sr2ov"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nwstu"]
 albedo_color = Color(0, 0.133333, 0.870588, 0.192157)
@@ -21,3 +22,7 @@ visible = false
 
 [node name="platform-grass-large-round2" parent="." index="4"]
 surface_material_override/0 = SubResource("StandardMaterial3D_nwstu")
+
+[node name="DamageDealer_Doom" parent="." index="5" instance=ExtResource("3_sr2ov")]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -2, 0)
+visible = false
