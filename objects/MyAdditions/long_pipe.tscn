@@ -1,0 +1,57 @@
+[gd_scene load_steps=3 format=3 uid="uid://dh7dowoxjdaqj"]
+
+[ext_resource type="PackedScene" uid="uid://cqtcet0j5lxdt" path="res://models/prototyping/models/pipe.glb" id="1_m7b3c"]
+[ext_resource type="PackedScene" uid="uid://n72b33unydpf" path="res://objects/MyAdditions/fence_corner_curved_2_collision.tscn" id="2_q6dsk"]
+
+[node name="long_pipe" type="Node3D"]
+
+[node name="pipe2" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0166032, 0)
+
+[node name="pipe3" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.989601, 0)
+
+[node name="pipe4" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.97699, 0)
+
+[node name="pipe5" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.94999, 0)
+
+[node name="pipe6" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.92297, 0)
+
+[node name="pipe7" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.89597, 0)
+
+[node name="pipe8" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.86725, 0)
+
+[node name="pipe9" parent="." instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.84024, 0)
+
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(0.766044, -0.642788, 0, 0.642788, 0.766044, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="pipe10" parent="Node3D" instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.84986, 0)
+
+[node name="pipe11" parent="Node3D" instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.876864, 0)
+
+[node name="Node3D2" type="Node3D" parent="."]
+transform = Transform3D(0.766044, 0.642788, 0, -0.642788, 0.766044, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="pipe10" parent="Node3D2" instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.84986, 0)
+
+[node name="pipe11" parent="Node3D2" instance=ExtResource("1_m7b3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.876864, 0)
+
+[node name="swing" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0504557, 0.372329, 0)
+
+[node name="fence-corner-curved2_collision" parent="swing" instance=ExtResource("2_q6dsk")]
+transform = Transform3D(-1.41421, 1.4924e-07, -1.41421, 1.41421, -6.18172e-08, -1.41421, -1.4924e-07, -2, -6.18172e-08, 0.0469816, -1.74428, 0.0522395)
+
+[node name="fence-corner-curved2_collision2" parent="swing" instance=ExtResource("2_q6dsk")]
+transform = Transform3D(-1.41421, 1.4924e-07, -1.41421, 1.41421, -6.18172e-08, -1.41421, -1.4924e-07, -2, -6.18172e-08, 0.0469816, -1.74428, 0.709831)
