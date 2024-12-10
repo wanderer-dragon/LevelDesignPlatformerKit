@@ -24,5 +24,5 @@ visible = false
 surface_material_override/0 = SubResource("StandardMaterial3D_nwstu")
 
 [node name="DamageDealer_Doom" parent="." index="5" instance=ExtResource("3_sr2ov")]
-transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -2, 0)
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -2.11407, 0)
 visible = false
