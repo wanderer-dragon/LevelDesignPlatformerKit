@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://cqtcet0j5lxdt" path="res://models/prototyping/models/pipe.glb" id="1_m7b3c"]
 [ext_resource type="PackedScene" uid="uid://n72b33unydpf" path="res://objects/MyAdditions/fence_corner_curved_2_collision.tscn" id="2_q6dsk"]
 
-[node name="long_pipe" type="Node3D"]
+[node name="top_swing" type="Node3D"]
 
 [node name="pipe2" parent="." instance=ExtResource("1_m7b3c")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0166032, 0)
