@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://scripts/view.gd" id="3_2vax5"]
 [ext_resource type="PackedScene" uid="uid://dbr3dh46cbskt" path="res://objects/wall.tscn" id="4_8ht1a"]
 [ext_resource type="PackedScene" uid="uid://bpharv43ulngb" path="res://objects/platform_moving.tscn" id="4_nek7g"]
-[ext_resource type="PackedScene" path="res://objects/trampoline.tscn" id="5_pfhy4"]
+[ext_resource type="PackedScene" uid="uid://ytqajrdi7fqj" path="res://objects/trampoline.tscn" id="5_pfhy4"]
 [ext_resource type="PackedScene" uid="uid://bs65o07otxbmm" path="res://objects/moving_object_path_3d.tscn" id="6_bxedt"]
 [ext_resource type="PackedScene" uid="uid://bl8tvan447ulc" path="res://objects/MyAdditions/stairs_diagonal_narrow_2_collision.tscn" id="7_pfiei"]
 [ext_resource type="PackedScene" uid="uid://dhxok27jxvik8" path="res://objects/flag.tscn" id="7_pjk8c"]
