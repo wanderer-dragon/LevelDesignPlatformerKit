@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://dmumobmrqaxnk"]
+[gd_scene load_steps=52 format=3 uid="uid://dmumobmrqaxnk"]
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_tk843"]
 [ext_resource type="PackedScene" uid="uid://dl2ed4gkybggf" path="res://objects/player.tscn" id="2_wjhob"]
@@ -33,6 +33,12 @@
 [ext_resource type="PackedScene" uid="uid://dlelyv8qigbk2" path="res://objects/MyAdditions/wall_round_2_collision.tscn" id="29_jxeal"]
 [ext_resource type="PackedScene" uid="uid://hqu6f5w3cjf4" path="res://objects/MyAdditions/Spike_platform_moving.tscn" id="31_wow5x"]
 [ext_resource type="PackedScene" uid="uid://uavkqvudbpym" path="res://objects/MyAdditions/fence_corner_2_collision.tscn" id="33_hm6yv"]
+[ext_resource type="PackedScene" uid="uid://bgvgs5ia2ylax" path="res://models/prototyping/models/stairs-small-narrow.glb" id="34_03ukl"]
+[ext_resource type="PackedScene" uid="uid://dlhxljnkglxks" path="res://models/prototyping/models/stairs-narrow.glb" id="35_3puhf"]
+[ext_resource type="PackedScene" uid="uid://du01l8aqj34be" path="res://models/prototyping/models/stairs-diagonal.glb" id="36_ummsg"]
+[ext_resource type="PackedScene" uid="uid://8vbogty8hio5" path="res://models/prototyping/models/stairs-diagonal-small.glb" id="37_3eyrx"]
+[ext_resource type="PackedScene" uid="uid://r4s3jk2sk838" path="res://models/prototyping/models/stairs-diagonal-small-narrow.glb" id="38_jesm4"]
+[ext_resource type="PackedScene" uid="uid://wdirxwufr0il" path="res://models/prototyping/models/stairs-diagonal-narrow.glb" id="39_rqj21"]
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_u8ojw"]
 auto_exposure_scale = 0.75
@@ -623,6 +629,27 @@ ping_pong = true
 
 [node name="door" parent="." instance=ExtResource("13_e74l6")]
 transform = Transform3D(-1.31134e-07, 0, -3, 0, 3, 0, 3, 0, -1.31134e-07, -12.995, -15.5, -39.4329)
+
+[node name="stairs-small-narrow2" parent="." instance=ExtResource("34_03ukl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.67727, -16.7385, -14.6401)
+
+[node name="stairs-narrow2" parent="." instance=ExtResource("35_3puhf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.23544, -16.7385, -15.5383)
+
+[node name="stairs-diagonal2" parent="." instance=ExtResource("36_ummsg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.40326, -16.7385, -12.489)
+
+[node name="stairs-diagonal-small2" parent="." instance=ExtResource("37_3eyrx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.18355, -16.7385, -10.3253)
+
+[node name="stairs-diagonal-small-narrow2" parent="." instance=ExtResource("38_jesm4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.68753, -14.9021, -7.02923)
+
+[node name="stairs-diagonal-narrow2" parent="." instance=ExtResource("39_rqj21")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.10322, -16.7385, -7.67058)
+
+[node name="stairs-diagonal-narrow3" parent="." instance=ExtResource("15_3s52e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0319, -16.7385, -8.66059)
 
 [connection signal="coin_collected" from="Player" to="HUD" method="_on_coin_collected"]
 [connection signal="reached_goal" from="Player" to="HUD" method="_on_player_reached_goal"]
