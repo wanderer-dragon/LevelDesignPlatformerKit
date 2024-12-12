@@ -105,19 +105,19 @@ void fragment() {
 }
 "
 
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_dqvqe"]
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_0il82"]
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_iw8hf"]
 seamless = true
 as_normal_map = true
-noise = SubResource("FastNoiseLite_dqvqe")
+noise = SubResource("FastNoiseLite_0il82")
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_pic6i"]
 seamless = true
 as_normal_map = true
-noise = SubResource("FastNoiseLite_dqvqe")
+noise = SubResource("FastNoiseLite_0il82")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_g41dd"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6jlho"]
 render_priority = 0
 shader = SubResource("Shader_3f5jc")
 shader_parameter/albedo = Color(0.160784, 0.521569, 1, 0.513726)
@@ -138,7 +138,7 @@ shader_parameter/texture_refraction = SubResource("NoiseTexture2D_pic6i")
 shader_parameter/texture_normal = SubResource("NoiseTexture2D_iw8hf")
 
 [sub_resource type="BoxMesh" id="BoxMesh_j3ts3"]
-material = SubResource("ShaderMaterial_g41dd")
+material = SubResource("ShaderMaterial_6jlho")
 size = Vector3(100, 10, 100)
 
 [node name="wall_damage_cube" instance=ExtResource("1_2i27a")]

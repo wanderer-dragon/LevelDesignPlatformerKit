@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvcm0o4863fbg"]
+
+[ext_resource type="PackedScene" uid="uid://x5cyb332hfur" path="res://objects/MyAdditions/damage_dealer_doom.tscn" id="1_u7tjp"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ok6ay"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ak4tx"]
+albedo_color = Color(0.387578, 0.000573382, 0.500499, 1)
+
+[node name="water" type="Node3D"]
+
+[node name="DamageDealer_Doom" parent="." instance=ExtResource("1_u7tjp")]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="DamageDealer_Doom"]
+mesh = SubResource("BoxMesh_ok6ay")
+surface_material_override/0 = SubResource("StandardMaterial3D_ak4tx")

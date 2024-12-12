@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://dij0whe4to8lg"]
+
+[ext_resource type="PackedScene" uid="uid://d3qctq8hccv0" path="res://objects/poison/large_tall_square_land.tscn" id="1_34xxr"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_i14rm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sebrh"]
+albedo_texture = ExtResource("2_i14rm")
+uv1_scale = Vector3(0.445, 0.445, 0.445)
+uv1_offset = Vector3(4.765, 0.105, 0)
+
+[node name="moving_platform_square" instance=ExtResource("1_34xxr")]
+
+[node name="block-snow-large-tall" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_sebrh")

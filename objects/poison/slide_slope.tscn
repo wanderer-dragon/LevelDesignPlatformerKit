@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://qev3rr3iumb3"]
+
+[ext_resource type="PackedScene" uid="uid://c5aoouvo0kyey" path="res://objects/MyAdditions/block_grass_large_slope_steep_narrow_2_collision.tscn" id="1_dih8o"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_6jno5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ydjk7"]
+albedo_texture = ExtResource("2_6jno5")
+
+[node name="slide_slope" instance=ExtResource("1_dih8o")]
+
+[node name="block-grass-large-slope-steep-narrow" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ydjk7")
