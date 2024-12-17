@@ -261,19 +261,19 @@ void fragment() {
 }
 "
 
-[sub_resource type="FastNoiseLite" id="FastNoiseLite_ho86h"]
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_pyxcn"]
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_d1e4y"]
 seamless = true
 as_normal_map = true
-noise = SubResource("FastNoiseLite_ho86h")
+noise = SubResource("FastNoiseLite_pyxcn")
 
 [sub_resource type="NoiseTexture2D" id="NoiseTexture2D_4fjix"]
 seamless = true
 as_normal_map = true
-noise = SubResource("FastNoiseLite_ho86h")
+noise = SubResource("FastNoiseLite_pyxcn")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_o607p"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_amyhq"]
 render_priority = 0
 shader = SubResource("Shader_fbkut")
 shader_parameter/albedo = Color(0.160784, 0.521569, 1, 0.513726)
@@ -294,7 +294,7 @@ shader_parameter/texture_refraction = SubResource("NoiseTexture2D_4fjix")
 shader_parameter/texture_normal = SubResource("NoiseTexture2D_d1e4y")
 
 [sub_resource type="BoxMesh" id="BoxMesh_l4iuo"]
-material = SubResource("ShaderMaterial_o607p")
+material = SubResource("ShaderMaterial_amyhq")
 size = Vector3(100, 10, 100)
 
 [sub_resource type="Curve3D" id="Curve3D_6h0c2"]
