@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://dxemrlpvytqfo"]
+
+[ext_resource type="PackedScene" uid="uid://b8xwmc2mw2ece" path="res://objects/MyAdditions/block_snow_large_tall_2_collision.tscn" id="1_ch37w"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_shm8j"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_54cm7"]
+albedo_texture = ExtResource("2_shm8j")
+uv1_offset = Vector3(0.26, 0, 0)
+
+[node name="block-snow-large-tall2_poision" instance=ExtResource("1_ch37w")]
+
+[node name="block-snow-large-tall" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_54cm7")

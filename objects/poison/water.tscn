@@ -5,7 +5,7 @@
 [sub_resource type="BoxMesh" id="BoxMesh_ok6ay"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ak4tx"]
-albedo_color = Color(0.387578, 0.000573382, 0.500499, 1)
+albedo_color = Color(0.388235, 0, 0.501961, 1)
 
 [node name="water" type="Node3D"]
 

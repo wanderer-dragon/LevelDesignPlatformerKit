@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://csh4negs5q63t"]
+
+[ext_resource type="PackedScene" uid="uid://inum8mw70gn0" path="res://models/prototyping/models/shape-triangular-prism-low.glb" id="1_d3b1y"]
+[ext_resource type="Texture2D" uid="uid://0odt7cvj574e" path="res://models/core_models/Textures/colormap.png" id="2_pgk6p"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ea366"]
+albedo_texture = ExtResource("2_pgk6p")
+emission_enabled = true
+emission = Color(0, 0.827451, 0, 1)
+emission_energy_multiplier = 16.0
+uv1_offset = Vector3(1.575, 1.76, 0)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_4n0wn"]
+data = PackedVector3Array(0, 0.5, -0.5, -0.5, 0, -0.5, 0.5, 0, -0.5, 0, 0.5, 0.5, 0.5, 0, 0.5, -0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, 0, 0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, -0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0, 0.5, -0.5, 0, -0.5, 0, 0.5, -0.5, 0, 0.5, -0.5, 0, 0.5, 0.5, -0.5, 0, 0.5, 0, 0.5, 0.5, 0, 0.5, -0.5, 0.5, 0, -0.5, 0.5, 0, -0.5, 0.5, 0, 0.5, 0, 0.5, 0.5)
+
+[node name="triangular-prism-low" instance=ExtResource("1_d3b1y")]
+
+[node name="shape-triangular-prism-low" parent="." index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_ea366")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_4n0wn")

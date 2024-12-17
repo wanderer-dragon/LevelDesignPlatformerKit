@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhypmas7vmwfa"]
+
+[ext_resource type="PackedScene" uid="uid://dos4a6s72tj8i" path="res://models/prototyping/models/column-triangle.glb" id="1_rqd31"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_4n6ro"]
+data = PackedVector3Array(-0.1, 0, -0.1, 0.1, 0, 0.1, 0.1, 0, -0.1, -0.1, 1, -0.1, 0.1, 1, -0.1, 0.1, 1, 0.1, 0.1, 1, 0.1, 0.1, 1, -0.1, 0.1, 0, -0.1, 0.1, 0, -0.1, 0.1, 0, 0.1, 0.1, 1, 0.1, -0.1, 1, -0.1, -0.1, 0, -0.1, 0.1, 0, -0.1, 0.1, 0, -0.1, 0.1, 1, -0.1, -0.1, 1, -0.1, 0.1, 0, 0.1, -0.1, 0, -0.1, -0.1, 1, -0.1, -0.1, 1, -0.1, 0.1, 1, 0.1, 0.1, 0, 0.1)
+
+[node name="column-triangle2" instance=ExtResource("1_rqd31")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0"]
+shape = SubResource("ConcavePolygonShape3D_4n6ro")
